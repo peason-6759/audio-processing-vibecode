@@ -14,6 +14,8 @@ checkpoints/
 logs/
 outputs/
 
+#
+static/uploads/
 # cursor ai
 .cursor/
 

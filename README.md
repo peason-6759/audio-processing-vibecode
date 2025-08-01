@@ -12,9 +12,10 @@ A web application that separates vocals from music tracks using AI-powered audio
 
 ## Technology Stack
 
-- Backend: Python 3.11+
-- Web Framework: Flask 3.0.2
-- Audio Processing: Spleeter 2.4.0
+- Backend: Python 3.9
+- Web Framework: Flask 3.1.1
+- Audio Processing: Spleeter 2.4.0, demucs v4 (https://github.com/facebookresearch/demucs.git  commit e976d93)
+
 - Frontend: HTML5, CSS3, JavaScript
 - Audio Processing Libraries: librosa, soundfile
 - Deep Learning: PyTorch, torchaudio
