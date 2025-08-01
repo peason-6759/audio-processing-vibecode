@@ -1,0 +1,35 @@
+/* Custom styles */
+.border-dashed {
+    transition: border-color 0.3s ease;
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Audio player customization */
+audio {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    .grid {
+        grid-template-columns: 1fr;
+    }
+} 
